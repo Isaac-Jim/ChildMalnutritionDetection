@@ -37,4 +37,13 @@ This dataset contains key indicators related to malnutrition risk in children un
 - **Seasonal Variations** – Impact of seasonal changes on food availability (1/0)  
 
 #### **Target Variable**  
-- **Malnutrition Risk** – Categorized risk level of malnutrition (Low/Moderate/High)  
+- **Malnutrition Risk** – Categorized risk level of malnutrition (Low/Moderate/High)
+
+
+## **Step 2: Checking for Duplicate Records**  
+
+### Checking for Duplicates  
+
+Duplicate records can cause data redundancy and affect model accuracy. We check for duplicate rows and remove them if necessary.  
+
+
